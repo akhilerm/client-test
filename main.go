@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/akhilerm/api-test/pkg/calc"
+	"github.com/akhilerm/api-test/v2/pkg/calc"
 )
 
 func main() {
-	v := calc.NewVariables(12, 13)
+	v := calc.NewVariables(12, 13, 14)
 	fmt.Printf("Sum = %d \n", v.Add())
 }
